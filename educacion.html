@@ -56,9 +56,8 @@
     </table>
     <h2>Agregar Estudios</h2>
     <form action="">
-      <label for="listaAnio">Selecciona año</label>
-      <br>
-      <select name="listaAnio" id="listaAnio">
+      <label for="listaAnio">Año: </label>
+      <select name="listaAnio">
         <option value="2008">2008</option>
         <option value="2009">2009</option>
         <option value="2010">2010</option>
@@ -70,9 +69,26 @@
         <option value="2016">2016</option>
         <option value="2017">2017</option>
       </select>
-      <br>
+      <br><br>
+      <label for="nombreInstitucion">Institucion: </label>
+      <input type="text" name="nombreInstitucion" required>
+      <br><br>
+      <label for="lugar">Lugar: </label>
+      <textarea name="logar" rows="5" cols="23"></textarea>
+      <br><br>
+      <label for="culmino">¿Culminó?</label>
+      <input type="radio" value="si" name="culmino">si
+      <input type="radio" value="no" name="culmino">no
+      <br><br>
+      <input type="submit" value="Enviar" id="">
     </form>
-
+    <br>
+    <footer>
+      <a href="mailto:mail@mimail.com">Contacto</a>
+       | Tel: 0123456789 |
+      <a href="https://www.facebook.com">Facebook</a> |
+      <a href="https://twitter.com/">Twitter</a>
+    </footer>
 
   </body>
 </html>
